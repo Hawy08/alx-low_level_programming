@@ -1,5 +1,9 @@
 #include <stdio.h>
 
+/**
+ * main-entry point
+ * Return:always zero
+ */
 int main(void)
 {
 	char lcase = 'z';
@@ -10,5 +14,5 @@ int main(void)
 		lcase--;
 	}
 	putchar('\n');
-	return(0);
+	return (0);
 }
