@@ -1,5 +1,8 @@
 #include <stdio.h>
-
+/**
+ * uppercase - print uper and lowercase
+ * Return: Always zero
+ */
 
 int main(void)
 {
@@ -17,5 +20,5 @@ int main(void)
 		uppercase++;
 	}
 	putchar('\n');
-	return(0);
+	return (0);
 }
