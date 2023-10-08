@@ -1,4 +1,9 @@
 #include <stdio.h>
+/**
+ * main-entry point
+ *
+ * Return:Always zero
+ */
 
 int main(void)
 {
@@ -14,5 +19,5 @@ int main(void)
 		n++;
 	}
 	putchar('\n');
-	return(0);
+	return (0);
 }
