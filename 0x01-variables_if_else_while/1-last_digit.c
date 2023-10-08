@@ -1,6 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+/**
+ * main - prints lastdigit
+ *
+ * Return: always a zero for success
+ */
 
 int main(void)
 {
@@ -8,7 +13,6 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	{
 	int lastdigit = n % 10;
 
 	printf("Last digit of %d is", n);
@@ -18,6 +22,5 @@ int main(void)
 		printf("%d and is 0\n", lastdigit);
 	else
 		printf("%d and is less than 6 and not 0\n", lastdigit);
-	return(0);
-	}
+	return (0);
 }
