@@ -6,13 +6,9 @@
  * Return:always 0
  *
  */
-
-int main(void)
-
+void print_alphabet(void)
 {
-
 	char alph1 = 'a';
-	print_alphabet();
 
 	while (alph1 <= 'z')
 	{
@@ -20,6 +16,4 @@ int main(void)
 		alph1++;
 	}
 	_putchar('\n');
-	
-	return (0);
 }
