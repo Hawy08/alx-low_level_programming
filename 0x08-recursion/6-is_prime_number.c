@@ -22,7 +22,7 @@ int checker(int num, int n)
 	return (checker(num, n + 6));
 }
 /**
-* is_prime_number -  a function for prime 
+* is_prime_number -  a function for prime
 * Return:1 if the input integer is a prime number, otherwise return 0.
 * @n: the value
 */
