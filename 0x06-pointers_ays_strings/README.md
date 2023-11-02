@@ -1,1 +1,0 @@
-Futher pointers and strings
